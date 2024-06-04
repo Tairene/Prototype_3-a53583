@@ -673,8 +673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37aa9e66d6f6c0946b78a350d3ef39df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 15
-  gravityModifier: 2
+  jumpForce: 700
+  gravityModifier: 1.5
   isOGround: 1
   gameOver: 0
 --- !u!65 &2055230615
@@ -696,8 +696,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.43, y: 3.37, z: 1.14}
+  m_Center: {x: 0, y: 1.67, z: 0}
 --- !u!54 &2055230616
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -706,7 +706,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055230613}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 60
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
